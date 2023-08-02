@@ -1,0 +1,38 @@
+#div1{
+    border: 10px dotted black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: padding-box;
+}
+#div2{
+    height:200px; 
+    border: 10px dotted black;
+    background-image: url(image/anime%20pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    padding: 20px;
+    background-origin: content-box;    
+}
+#div3{
+    height: 200px;
+    background-image: url(image/girl.jpg),url(image/anime pic.jpg),url(image/third.jpg);
+   background-repeat: no-repeat; background-size:200px 200px, 200px 200px, 300px 300px; 
+    background-position:left,right,center;
+    
+}
+#div4{
+   height: 200px;
+    background-image: url(image/girl.jpg),url(image/anime pic.jpg),url(image/third.jpg);
+    background-size: 200px;
+   
+    background-position:0px 0px,200px 0px,400px 5px;
+}
+#div5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
